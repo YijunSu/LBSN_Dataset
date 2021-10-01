@@ -1,7 +1,6 @@
 ## Location-Based Social Networks Datasets
 
-<mark>The datasets can be used for POI/next-POI recommendation, trajectory recommendation, friends recommendation (link prediction),
-activity recommendations, group recommendation and community discovery tasks.mark>
+**The datasets can be used for POI/next-POI recommendation, trajectory recommendation, friends recommendation (link prediction), activity recommendations, group recommendation and community discovery tasks.**
 ```
 Statistics for FGCRec:
 
