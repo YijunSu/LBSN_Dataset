@@ -1,0 +1,4 @@
+total users:9728
+total pois:12449
+total checkins:177142
+total reviews:234793
