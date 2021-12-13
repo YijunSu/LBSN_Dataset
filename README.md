@@ -28,6 +28,15 @@ Dataset Statistics used in CARec (see our paper CARec: Content-Aware Point-of-In
 | Yelp_CARec       | 5,577           | 6,900          | 518,186                | 542,707                 |0.46%                   |
 ```
 
+```
+Dataset Statistics used in MUC (see our paper Next Check-ins Prediction via History and Friendship on Location-Based Social Networks for details):
+
+| Dataset        | Number of users | Number of POIs | Number of check-ins    | Number of social links  |
+| -------------- | --------------- | -------------- | ---------------------- |-------------------------|
+| Foursquare_MUC | 11,326          | 182,968        | 1,385,223              | 47,164                  |
+| Gowalla_MUC    | 107,092         | 1,280,969      | 6,442,890              | 950,327                 |
+```
+
 tips： we divide the dataset into training set,  tuning set and test set in terms of the user’s check-in time. For
 each user, the earliest 70 % check-ins are selected as training  data, the most recent 20 % check-ins as test data and the  remaining 10 % as the tuning data.
 
@@ -42,6 +51,10 @@ each user, the earliest 70 % check-ins are selected as training  data, the most 
 - Foursquare_CARec:  We filter users who visited less than 10 POIs in Foursquare dataset and POIs visited by less than 10 users.
 
 - Yelp_CARec: https://www.yelp.com/dataset. We filter users who visited less than 32 POIs in Foursquare dataset and POIs visited by less than 31 users.
+
+- Foursquare_MUC: Foursquare contains check-in data ranging from January 2011 to July 2011. 
+
+- Gowalla_MUC: Gowalla includes check-in data between Feb. 2009 and Oct 2010.
 
 ## Citation
 
@@ -84,8 +97,20 @@ Please cite [our paper CARec](./ICONIP2020_CARec.pdf) if you use the datasets (F
 }
 ```
 
+Please cite [our paper MUC](./MDM2018_MUC.pdf) if you use the datasets (Foursquare_MUC, Yelp_MUC):
+
+```
+@inproceedings{SuLTXH18,
+  title={Next Check-in Location Prediction via Footprints and Friendship on Location-Based Social Networks},
+  author={Yijun Su, Xiang Li,  Wei Tang, Ji Xiang and Neng Gao},
+  booktitle={IEEE International Conference on Mobile Data Management, {MDM} 2018}, 
+  pages={251-256},
+  doi={10.1109/MDM.2018.00044},
+  year={2018}
+}
+```
 ## Contact
 
 If you have any questions, please contact us by suyijun.ucas@gmail.com, we will be happy to assist.
 
-Last Update Date: October 20, 2021
+Last Update Date: December 13, 2021
