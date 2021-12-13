@@ -97,7 +97,7 @@ Please cite [our paper CARec](./ICONIP2020_CARec.pdf) if you use the datasets (F
 }
 ```
 
-Please cite [our paper MUC](./MDM2018_MUC.pdf) if you use the datasets (Foursquare_MUC, Yelp_MUC):
+Please cite [our paper MUC](./MDM2018_MUC.pdf) if you use the datasets (Foursquare_MUC, Gowalla_MUC):
 
 ```
 @inproceedings{SuLTXH18,
